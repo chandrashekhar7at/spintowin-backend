@@ -12,7 +12,8 @@ const app = express();
 const port = process.env.PORT || 8080;
 
 app.use(cors({
-    origin:['https://spintowin-sepia.vercel.app'],
+    origin:['https://spintowin-five.vercel.app'],
+    // origin:['http://localhost:5173'],
     credentials:true
 }))
 

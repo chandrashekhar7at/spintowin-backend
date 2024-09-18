@@ -12,7 +12,7 @@ const app = express();
 const port = process.env.PORT || 8080;
 
 app.use(cors({
-    origin:['https://spintowin-sigma.vercel.app'],
+    origin:['https://spintowin-sepia.vercel.app'],
     credentials:true
 }))
 

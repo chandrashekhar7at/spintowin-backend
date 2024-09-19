@@ -14,7 +14,6 @@ router.post('/logout',authenticate,logout)
 router.get('/checkUserAuth',(req,res)=>{
     try {
         const token = req.cookies.sessionid;
-        console.log(token)
 
         if (!token) {
             return res.status(201).json({status:false,message:'1not a valid user'})
